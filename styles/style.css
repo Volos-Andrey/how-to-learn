@@ -302,7 +302,7 @@ position: relative;
   
 }
   
-.footer__columns {
+.footer__columns { 
   height: 250px;
   display: flex;
   justify-content: space-around;
