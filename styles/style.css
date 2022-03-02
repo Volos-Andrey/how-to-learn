@@ -258,12 +258,10 @@
   margin: 0;
 }
 
-
 .table__cell_theme_dark {
   z-index: 2;
   width: 200px;
-  margin-top: 80px;
-  margin-right: 0;
+  margin: 80px 0 0;
 }
 
 .footer {
