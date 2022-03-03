@@ -88,7 +88,6 @@
 
 .two-columns {
   margin: 100px auto 0;
-  /*80px сложится с блоком paragraph 20px = 100px от верхней границы*/
   width: 80%;
   display: flex;
   justify-content: space-between;
