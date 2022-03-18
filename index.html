@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index/normalize.css">
-  <link rel="stylesheet" href="index/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -19,10 +18,11 @@
         <a class="header__link" href="#">Узнать →</a>
       </p>
        <img class="header__main-illustration" src="images/header-image.png" alt="Грустный мальчик"> 
-      <div class="header__square-pic">
+      <div class="header__square-pic rotation">
       </div>
-      </header>
-      <section class="description">
+    </header>
+    <main class="content">
+       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -31,50 +31,47 @@
           <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
            </div>
         </div>
-      </section>
-    <main class="content">
-    <section class="techniques">
+       </section>
+       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-     <div class="cards">
-        <div class="cards__item">
+        <div class="cards">
+         <div class="cards__item">
            <img class="cards__image" src="images/cards-attention.png" alt="Виды внимания">
-           <div class="cards__title">Два вида внимания</div>
-           <div class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</div>
-        </div>
-        <div class="cards__item">
+           <h3 class="cards__title">Два вида внимания</h3>
+           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+         </div>
+         <div class="cards__item">
            <img class="cards__image" src="images/cards-recall.png" alt="Вспомнить изученное">
-           <div class="cards__title">Recall</div>
-           <div class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</div>
-        </div>
-        <div class="cards__item">
+           <h3 class="cards__title">Recall</h3>
+           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+         </div>
+         <div class="cards__item">
             <img class="cards__image" src="images/cards-interliving.png" alt="Интерливинг">
-            <div class="cards__title">Интерливинг</div>
-            <div class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</div>
-        </div>
-        <div class="cards__item">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+         </div>
+         <div class="cards__item">
             <img class="cards__image" src="images/cards-question.png" alt="Вопросы">
-            <div class="cards__title">Вопросы</div>
-            <div class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</div>
-        </div>
-        <div class="cards__item">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+         </div>
+         <div class="cards__item">
              <img class="cards__image" src="images/cards-competence.png" alt="Иллюзия компетентности">
-            <div class="cards__title">Иллюзия компетентности</div>
-            <div class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</div>
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+         </div>
         </div>
-     </div>
-    </section> 
-      <section class="video">
+       </section> 
+       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__ifreme" width="515" height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__ifreme"  width="515" height="316"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
-      </section>
-      <section class="oakley">
+       </section>
+       <section class="oakley">
           <div class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
@@ -84,20 +81,19 @@
                И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся»,
                 ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="feynman">
+       </section>
+       <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
           <img class="feynman__image" src="images/feynman.png" alt="Фейнман позирует на фоне синего солнца">
           <a class="feynman__link" href="#">Подробнее →</a>
-      </section>
-
-      <section class="digits">
+       </section>
+       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
-      <div class="table">
+        <div class="table">
         <div class="table__cell">
           <h3 class="table__heading">86 миллиардов</h3>
           <p class="table__text">Число нейронов в мозге человека</p>
@@ -132,9 +128,9 @@
           <h3 class="table__heading">1889 год</h3>
           <p class="table__text">Открытие условного рефлекса</p>
         </div>
-      </div> 
-      </section>
-        <section class="khan">
+       </div> 
+       </section>
+       <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — школа</h2>
@@ -149,12 +145,12 @@
              <a href="#" class="khan__buy-link">Купить книгу →</a>
            </div>
           </div>
-        </section>
+       </section>
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-      <div class="table table_theme_dark">
+       <div class="table table_theme_dark">
         <div class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">1</h3>
           <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -201,10 +197,10 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Арзамас">
-          <img class="resources__logo" src="images/logo/resources-n1.svg" alt="Н+1">
-          <img class="resources__logo" src="images/logo/resources-polka.svg" alt="Полка">
-          <img class="resources__logo" src="images/logo/resources-strelka.svg" alt="Стрелка">
+          <a href="#"><img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/resources-n1.svg" alt="Н+1"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/resources-polka.svg" alt="Полка"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/resources-strelka.svg" alt="Стрелка"></a>
         </div>
       </section>
     </main>
